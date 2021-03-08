@@ -6,5 +6,5 @@ This implementation uses the autoencoder.cpp of the following github repository:
 How to run:
 - mpiCC autoencoder.cpp -c -lm
 - mpiCC utils.cpp -c -lm
-- mpiCC  autoencoder.o  utils.o  -O3  ParallelAutoencoder.cpp  -o  Paralle-lAutoencoder -lm
+- mpiCC  autoencoder.o  utils.o  -O3  ParallelAutoencoder.cpp  -o  ParallelAutoencoder -lm
 - mpirun -np<number of process>./ParallelAutoencoder<trainingset-filename.txt><number of training samples><length of samples><testset-filename.txt><number of testing samples>
